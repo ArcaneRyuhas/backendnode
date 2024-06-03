@@ -4,7 +4,7 @@ const categorias = require('../controllers/categorias.controller');
 
 // GET: api/categorias
 router.get('/', categorias.getAll);
-// GET: api/categorias/5
+// GET: api/categorias/
 router.get('/:id', categorias.get);
 // POST: api/categorias
 router.post('/', categorias.create);
